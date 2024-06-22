@@ -1,0 +1,57 @@
+@font-face {
+    font-family:Hind;
+    src: url(./fonts/hind.ttf);
+}
+@font-face {
+    font-family:Maven-Pro;
+    src: url(./fonts/mavenpro.ttf);
+}
+@font-face {
+    font-family:Inter;
+    src: url(./fonts/inter.ttf);
+}
+
+body{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+.nomabase{
+    padding: 20px;
+    max-width: 200px;
+}
+
+
+
+h1{
+    text-align: center;
+    color:#fff;
+    font-family: Maven-Pro;
+    font-weight: 900;
+
+}
+
+.hero{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+    height: 40vh;
+    margin: 50px auto;
+    padding: 0px 50px;
+
+}
+
+p{
+    color: #fff;
+    margin: 0 auto;
+    font-family: Inter;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.ease{
+    color: #00F002;
+}
