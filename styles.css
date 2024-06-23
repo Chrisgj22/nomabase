@@ -55,3 +55,15 @@ p{
 .ease{
     color: #00F002;
 }
+
+#istbtn {
+    width: 150px;
+    height: 50;
+    font-size: large;
+    color: white;
+    background-color: #000;
+}
+#istbtn:hover {
+    font-size: larger;
+    background-color: #171717;
+}
