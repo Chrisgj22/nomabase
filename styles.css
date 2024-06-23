@@ -62,6 +62,7 @@ p{
     font-size: large;
     color: white;
     background-color: #000;
+    border: solid 1px white;
 }
 #istbtn:hover {
     font-size: larger;
