@@ -50,8 +50,7 @@ p{
 }
 
 #istbtn {
-    width: 180px;
-    height: 80;
+    padding: 10px 20px;
     font-size: large;
     color: white;
     background-color: #000;
