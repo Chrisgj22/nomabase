@@ -1,11 +1,4 @@
-@font-face {
-    font-family:Hind;
-    src: url(./fonts/hind.ttf);
-}
-@font-face {
-    font-family:Maven-Pro;
-    src: url(./fonts/mavenpro.ttf);
-}
+
 @font-face {
     font-family:Inter;
     src: url(./fonts/inter.ttf);
@@ -18,7 +11,7 @@ body{
 }
 .nomabase{
     padding: 20px;
-    max-width: 200px;
+    width: 200px;
 }
 
 
