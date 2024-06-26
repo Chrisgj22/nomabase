@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+body{
+margin: 0;
+padding: 0;
+
+font-family: "Inter", sans-serif;
+}
+/*menu*/
+
+.logo{
+    height: 26px;
+}
+
+.navbarDesktop{
+    max-width: 1600px;
+    margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+    display: flex;
+    height: 60px;
+}
+
+.desktopMenuList{
+    display: flex;
+}
+
+.navbarDesktop ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbarDesktop a{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width:1024px){
+    
+.mobileNav{
+    display: none;
+}}
+
+@media (max-width:1025px){
+.desktopMenuList{
+    display:none;
+}}
+#toggleMenu{
+    height: 26px;
+    width: 26px;
+}
+
+#menuToggle{
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.8s ease-in-out;
+    text-align: center;
+}
+
+#menuToggle ul{
+}
+
+#menuToggle li{
+    list-style-type: none;
+    margin-bottom: 10rem;
+}
+
+#menuToggle a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+}
+
+#closeMenu {
+    height: 26px;
+    width: 26px;
+}
+
+/*header*/
+
+.webWidth{
+    margin: 20px;
+}
+
+.header1{
+width: 100%;
+display: inline-block;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+
+}
+
+.cardXl{
+display:flex;
+flex-wrap: wrap;
+border-radius: 20px;
+background: linear-gradient(to right, #e0e2e2,#b0e7cd68);
+max-width: 1600px;
+margin: auto;
+justify-content: center;
+gap: 10%;
+}
+
+.cardXl:hover{
+    background: linear-gradient(to right, #d4d5d5,#a3d5be68);
+}
+
+.leftC{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.rightC{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    max-width: 800px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+@media (max-width:1024px){
+.heroImg{
+    max-width: 400px;
+}
+}
+
+
+.primaryText{
+    font-weight: 300;
+    font-size: 3vh;
+}
+
+
+@media screen and (min-width: 736px) {
+    
+.primaryText{
+    font-size: 5vh;}}
+
+
+
+.ptext{
+    background-color: #04552a;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.ptext1{
+    background-color: #485908da;
+    -webkit-background-clip: text;
+    color: transparent;
+}
