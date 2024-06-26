@@ -163,6 +163,7 @@ gap: 10%;
 @media screen and (min-width: 736px) {
     
 .primaryText{
+    font-family: inherit;
     font-size: 5vh;}}
 
 
