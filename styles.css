@@ -77,15 +77,22 @@ font-family: "Inter", sans-serif;
     margin-top: 1rem;
 }
 
+#menuToggle a:hover{
+    color: #00ff0d;
+}
+
 #menuToggle a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-size: 3vh;
 }
 
 #closeMenu {
-    height: 26px;
-    width: 26px;
+    height: 36px;
+    width: 36px;
+}
+#closeMenu:hover{
+    
 }
 
 /*header*/
