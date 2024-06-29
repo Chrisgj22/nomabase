@@ -203,15 +203,13 @@ gap: 10%;
     min-height: 300px;
     align-content: center;
     max-width: 40%;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .cardText{
-    font-weight: 400;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-
+font-weight: 400;
 }
 
 .sideText{
