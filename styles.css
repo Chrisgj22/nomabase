@@ -222,6 +222,12 @@ justify-content: center;
     margin: auto;
     align-items: center;
     justify-items: center;
+
+}
+
+.checkMark{
+    height: 16px;
+    width: 16px;
 }
 
 @media ( max-width: 736px){
@@ -234,6 +240,10 @@ justify-content: center;
 .featuresLI{
 
 list-style: none;
+display: flex;
+align-items:center;
+gap: 10px;
+margin-top: 10px;
 }
 
 @media ( max-width: 736px){
