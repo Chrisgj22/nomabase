@@ -255,12 +255,12 @@ margin-top: 10px;
 /*how it works*/
 
 .howItWorks{
+background-color: #f6f6f6;
 margin-top: 40px;
 display:flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background-color: #525352;
 border-radius: 20px;
 max-width: 1600px;
 margin-left: auto;
@@ -278,7 +278,7 @@ gap: 20px;
 }
 
 .innerText{
-color: rgb(255, 255, 255);
+color: rgb(43, 43, 43);
 text-align: center;
 margin-top: 40px;
 }
@@ -296,6 +296,7 @@ margin-top: 40px;
 
 
 .searchText{
+    color:white;
 display:flex;
 flex-direction: column;
 flex-wrap: wrap;
