@@ -5,6 +5,7 @@
 body{
 margin: 0;
 padding: 0;
+color: #545454;
 
 font-family: "Inter", sans-serif;
 }
@@ -250,4 +251,47 @@ margin-top: 10px;
     .featuresLI{
         font-size: 1.5vh;
     }
+}
+
+/*how it works*/
+
+.howItWorks{
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+.h3howto{
+    font-size: 2.5vh;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.innerText{
+color: black;
+text-align: center;
+margin-top: 40px;
+}
+
+.searchText{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.step1p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.searchText{
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+border-radius: 20px;
+background: linear-gradient(to right, #f8f8f8,#E4FFAA);
+max-width: 1600px;
+margin: auto;
+justify-content: center;
+gap: 10%;
+font-size: 2vh;
+font-weight: 200;
 }
