@@ -222,7 +222,7 @@ gap: 10%;
 
 @media ( max-width: 736px){
     .cardText{
-        font-size: 3vh;
+        font-size: 2vh;
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -233,4 +233,10 @@ gap: 10%;
 margin-top: 10px;
 margin-bottom: 10px;
 list-style: none;
+}
+
+@media ( max-width: 736px){
+    .featuresLI{
+        font-size: 1vh;
+    }
 }
