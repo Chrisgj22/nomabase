@@ -216,9 +216,11 @@ gap: 10%;
     align-content: center;
     justify-content: center;
     margin: auto;
+    align-items: center;
+    justify-items: center;
 }
 
-@media ( max-width: 435px){
+@media ( max-width: 736px){
     .cardText{
         font-size: medium;
     }
