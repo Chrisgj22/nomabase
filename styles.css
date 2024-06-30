@@ -94,7 +94,12 @@ font-family: "Inter", sans-serif;
 #closeMenu:hover{
     
 }
-
+/*thank-you*/
+.thankYou{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 5vh;
+}
 /*header*/
 
 .webWidth{
@@ -346,19 +351,20 @@ max-width: 1600px;
 
 .emailSub{
     border-radius: 10px;
-    line-height: 25px;
+    line-height: 33px;
     max-width: 400px;
     min-width: 196px;
     border: none;
     outline-color: #00FF02;
+    margin: 0px;
 }
 
 .subBtn{
     border-radius: 10px;
     background-color:#494747 ;
     color: white;
-    line-height: 25px;
-    min-width: 200px;
+    height: 35px;
+    width: 200px;
     border: none;
     margin-bottom: 40px;
 }
@@ -369,9 +375,10 @@ max-width: 1600px;
 
 
 .subText{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color: #121212;
     font-weight: 500;
     font-size: larger;
+    margin: 0px;
 }
