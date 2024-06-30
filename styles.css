@@ -257,12 +257,13 @@ margin-top: 10px;
 .howItWorks{
 background-color: #f6f6f6;
 margin-top: 40px;
+margin-bottom: 40px;
 display:flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 border-radius: 20px;
-max-width: 1600px;
+max-width: 1560px;
 margin-left: auto;
 margin-right: auto;
 padding-bottom: 20px;
@@ -322,4 +323,50 @@ color: black;
 
 /*subscribe*/
 
+.subscribe{
+    display: flex;
+    margin: auto;
 
+}
+.formSub{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+align-items: center;
+gap: 20px;
+border-radius: 20px;
+background-color: #d4d5d5;
+max-width: 1600px;
+}
+
+.emailSub{
+    border-radius: 10px;
+    line-height: 25px;
+    max-width: 400px;
+    min-width: 196px;
+    border: none;
+    outline-color: #00FF02;
+}
+
+.subBtn{
+    border-radius: 10px;
+    background-color:#494747 ;
+    color: white;
+    line-height: 25px;
+    min-width: 200px;
+    border: none;
+    margin-bottom: 40px;
+}
+.subBtn:hover{
+    background-color: #00FF02;
+    color: #252424;
+}
+
+
+.subText{
+    padding: 20px;
+    text-align: center;
+    color: #121212;
+    font-weight: 500;
+    font-size: larger;
+}
