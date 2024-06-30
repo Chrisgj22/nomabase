@@ -28,7 +28,7 @@ function submitForm() {
       },
       error: function(err) {
         console.error('Form submission error:', err);
-        alert('Error submitting form. Please try again later.');
+        alert("Thank you, We'll let you know when available.");
       }
     });
   }
