@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"/>
     <title>nomabase</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+      
 </head>
 <body>
 
@@ -111,10 +114,10 @@
 <!--subscribe-->
 
 <div class="subscribe"></div>
-    <form class="formSub" action="https://script.google.com/macros/s/AKfycbzTDIgTmekNSYVAfncnD709xs4uAPnFIHs3TdHsMPfqefx7WGD2BK8whx2JXVVuhuFmzw/exec" method="POST">
-        <Div class="subText"><p>Stay in the loop and be the first to know when available in your area.</p></Div>
-        <input class="emailSub" type="email" name="Email" placeholder="Email" required>
-        <button type="submit" value="Submit" class="subBtn">Subscribe</button>
+<form id="myForm" onsubmit="event.preventDefault(); submitForm();">
+    <input type="email" id="email" name="Email" required>
+    <button type="submit">Submit</button>
+  </form>
     </form> 
 </div>
 
