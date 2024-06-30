@@ -16,6 +16,7 @@ closeMenu.addEventListener("click",function() {
 
 
 function submitForm() {
+   src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     const url = 'https://script.google.com/macros/s/AKfycbzfb3gM8rmc3usKQwUiCJqxEd7Yiou71SZvNb0U0vdIWIPrCjV7GTxYIF_OULnq072S6Q/exec'; // Replace with your form submission endpoint
 
     fetch(url, {
