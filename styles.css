@@ -315,15 +315,8 @@ justify-content: center;
 gap: 10%;
 font-size: 2vh;
 font-weight: 200;
-margin-bottom: 20px;
-animation: fadeIn 5s;
-}
+margin-bottom: 20px;}
 
-@keyframes fadeIn {
-    0% { opacity: 0;}
-    100% { opacity: 1 ;}
-  }
-  
   
 
 .searchText:hover{
