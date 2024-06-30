@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>nomabase</title>
   
  
@@ -114,11 +115,10 @@
 <!--subscribe-->
 
 <div class="subscribe"></div>
-    <form class="formSub" action="https://formsubmit.co/info@nomabase.com" method="POST">
-        <input type="hidden" name="_next" value="https://nomabase.com/thank-you.html">
+    <form class="formSub" id="myForm">
         <Div class="subText"><p>Stay in the loop and be the first to know when available in your area.</p></Div>
-        <input class="emailSub" type="email" name="email" required>
-        <button class="subBtn">Subscribe</button>
+        <input class="emailSub" id="email" type="email" name="Email" required>
+        <button type="submit"class="subBtn">Subscribe</button>
     </form> 
 </div>
 
