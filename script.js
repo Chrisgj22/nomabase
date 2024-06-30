@@ -12,30 +12,34 @@ closeMenu.addEventListener("click",function() {
     mobileMenu.style.display = "none"
     })
 
+'https://script.google.com/macros/s/AKfycbzfb3gM8rmc3usKQwUiCJqxEd7Yiou71SZvNb0U0vdIWIPrCjV7GTxYIF_OULnq072S6Q/exec'
 
+function submitForm() {
+    const url = 'https://script.google.com/macros/s/AKfycbzfb3gM8rmc3usKQwUiCJqxEd7Yiou71SZvNb0U0vdIWIPrCjV7GTxYIF_OULnq072S6Q/exec'; // Replace with your form submission endpoint
 
-    function submitForm() {
-        const url = 'https://script.google.com/macros/s/AKfycbzfb3gM8rmc3usKQwUiCJqxEd7Yiou71SZvNb0U0vdIWIPrCjV7GTxYIF_OULnq072S6Q/exec'; // Replace with your script URL
-    
-        $.ajax({
-            url: url,
-            method: 'POST',
-            data: $('#myForm').serialize(),
-            success: function(response) {
-                console.log('Form submitted successfully:', response);
-                // Handle success response and redirect
-                window.location.href = "https://nomabase.com/thank-you.html";
-            },
-            error: function(err) {
-                console.log('Error submitting form:', err);
-            }
-        });
-    }
-    
-    $(document).ready(function() {
-        $('#myForm').submit(function(event) {
-            event.preventDefault(); // Prevent default form submission
-            submitForm(); // Call the AJAX form submission function
-        });
+    fetch(url, {
+        method: 'POST',
+        body: new FormData(document.getElementById('myForm'))
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log('Form submission successful:', data);
+        // Redirect or handle success scenario here
+        window.location.href = 'https://nomabase.com/thank-you.html';
+    })
+    .catch(error => {
+        console.error('Error during form submission:', error);
+        // Handle error scenario here
+        alert('There was an error submitting the form. Please try again later.');
     });
-    
+}
+
+document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+    submitForm();
+});
