@@ -298,6 +298,7 @@ margin-top: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2.5vh;
+    
 }
 
 
@@ -315,7 +316,15 @@ gap: 10%;
 font-size: 2vh;
 font-weight: 200;
 margin-bottom: 20px;
+animation: fadeIn 5s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1 ;}
+  }
+  
+  
 
 .searchText:hover{
 background-color: #00FF02;
