@@ -28,7 +28,7 @@ function submitForm() {
       },
       error: function(err) {
         console.error('Form submission error:', err);
-        alert('Thank you, we will let you know when available.');
+        window.location.href = "https://nomabase.com/thank-you.html";
       }
     });
   }
