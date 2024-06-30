@@ -23,7 +23,7 @@ closeMenu.addEventListener("click",function() {
             data: $('#myForm').serialize(),
             success: function(response) {
                 console.log('Form submitted successfully:', response);
-                // Redirect to thank-you page
+                // Handle success response and redirect
                 window.location.href = "https://nomabase.com/thank-you.html";
             },
             error: function(err) {
