@@ -27,7 +27,6 @@ function submitForm() {
         window.location.href = "https://nomabase.com/thank-you.html"; // Replace with your thank-you page URL
       },
       error: function(err) {
-        console.error('Form submission error:', err);
         window.location.href = "https://nomabase.com/thank-you.html";
       }
     });
