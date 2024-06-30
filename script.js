@@ -23,10 +23,10 @@ function submitForm() {
       method: 'POST',
       data: $('#myForm').serialize(),
       success: function(response) {
-        window.location.href = "https://nomabase.com/thank-you.html"; // Replace with your thank-you page URL
+        window.location.assign("https://nomabase.com/thank-you.html"); 
       },
       error: function(err) {
-        window.location.href = "https://nomabase.com/thank-you.html";
+        window.location.assign("https://nomabase.com/thank-you.html");
       }
     });
   }
