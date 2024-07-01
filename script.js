@@ -7,6 +7,11 @@ hamburger.addEventListener("click",function() {
     mobileMenu.style.display = "flex"
     })
 
+closeMenu.addEventListener("click",function() {
+      mobileMenu.style.display = "none"
+      })
+  
+  
 
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyEyLxV1Aw0_tvlpNjNplaoxepJq0KOFLiz2YVVxrxzLCZKNPvQCQ4u2axdFoIhujph/exec';
     const form = document.forms['submit-to-google-sheet'];
