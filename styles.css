@@ -331,14 +331,7 @@ color: black;
 /*subscribe*/
 
 .subscribe{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-align-items: center;
-gap: 20px;
-border-radius: 20px;
-background-color: #d4d5d5;
-max-width: 1600px;
+  
 }
 .formSub{
     display: flex;
@@ -349,13 +342,14 @@ gap: 20px;
 border-radius: 20px;
 background-color: #d4d5d5;
 max-width: 1600px;
+min-height: fit-content;
 }
 
 .emailSub{
     border-radius: 10px;
-    line-height: 33px;
+    line-height: 43px;
     max-width: 400px;
-    min-width: 196px;
+    min-width: 246px;
     border: none;
     outline-color: #00FF02;
     margin: 0px;
@@ -365,16 +359,25 @@ max-width: 1600px;
     border-radius: 10px;
     background-color:#494747 ;
     color: white;
-    height: 35px;
-    width: 200px;
+    height: 45px;
+    width: 250px;
     border: none;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .subBtn:hover{
     background-color: #00FF02;
     color: #252424;
 }
 
+#thankSub{
+    color: #121212;
+    font-size: 2.5vh;
+    
+}
+
+.spanThanks{
+    min-height: 45px;
+}
 
 .subText{
     padding: 10px;

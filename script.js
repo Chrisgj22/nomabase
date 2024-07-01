@@ -1,6 +1,7 @@
 let hamburger = document.getElementById("toggleMenu")
 let mobileMenu = document.getElementById("menuToggle")
 let closeMenu = document.getElementById("closeMenu")
+let thanksSub = document.getElementById("thankSub")
 
 
 hamburger.addEventListener("click",function() {
@@ -21,8 +22,12 @@ closeMenu.addEventListener("click",function() {
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => {
           if (response.ok) {
-            console.log('Form submission successful! Redirecting to thank you page...');
-            window.location.href = "https://nomabase.com/thank-you.html";
+            console.log('Form submission successful!');
+            thanksSub.innerHTML="Thanks for subscribing!🎊"
+            setTimeout(function(){
+            thanksSub.innerHTML=""  
+            },5000)
+            form.reset()
           } else {
             console.error('Form submission failed with status ' + response.status);
           }
