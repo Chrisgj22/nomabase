@@ -8,33 +8,20 @@ hamburger.addEventListener("click",function() {
     })
 
 
-closeMenu.addEventListener("click",function() {
-    mobileMenu.style.display = "none"
-    })
-
-//'https://script.google.com/macros/s/AKfycbzfb3gM8rmc3usKQwUiCJqxEd7Yiou71SZvNb0U0vdIWIPrCjV7GTxYIF_OULnq072S6Q/exec'//
-
-
-function submitForm() {
-    const url = 'https://script.google.com/macros/s/AKfycbzfb3gM8rmc3usKQwUiCJqxEd7Yiou71SZvNb0U0vdIWIPrCjV7GTxYIF_OULnq072S6Q/exec'; // Replace with your form submission URL
-
-    $.ajax({
-      url: url,
-      method: 'POST',
-      data: $('#myForm').serialize(),
-      success: function(response) {
-        alert('Form submitted successfully! Redirecting to thank-you page.');
-        window.location.href = "https://nomabase.com/thank-you.html"; // Replace with your thank-you page URL
-      },
-      error: function(err) {
-        console.error('Form submission error:', err);
-        alert("Thank you, We'll let you know when available.");
-      }
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyEyLxV1Aw0_tvlpNjNplaoxepJq0KOFLiz2YVVxrxzLCZKNPvQCQ4u2axdFoIhujph/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          if (response.ok) {
+            console.log('Form submission successful! Redirecting to thank you page...');
+            window.location.href = "https://nomabase.com/thank-you.html";
+          } else {
+            console.error('Form submission failed with status ' + response.status);
+          }
+        })
+        .catch(error => console.error('Error!', error.message));
     });
-  }
-
-  // Submit form on button click
-  $('#myForm').submit(function(event) {
-    event.preventDefault();
-    submitForm();
-  });
+    
