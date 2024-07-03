@@ -27,7 +27,7 @@ margin-top: 40px;
 .cardR{
     padding: 20px;
     flex-wrap: wrap;
-    background: linear-gradient(to right, #f8f8f8,#E4FFAA);
+    background: linear-gradient(to right, #e7e6e6,#e8f0d7);
     border-radius: 20px;
 }
 
