@@ -10,7 +10,7 @@
 display: flex;
 max-width: 1600px;
 flex-wrap: wrap;
-gap: 20px;
+gap: 40px;
 justify-content: space-evenly;
 align-items: center;
 margin-left: auto;
