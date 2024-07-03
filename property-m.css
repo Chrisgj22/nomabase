@@ -1,0 +1,43 @@
+
+@media (max-width:1024px){
+    .heroProperty{
+        max-width: 280px;
+    }
+    }
+
+
+.section1{
+display: flex;
+max-width: 1600px;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: space-evenly;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+}
+
+.cardL{
+    padding: 20px;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #f8f8f8,#E4FFAA);
+    border-radius: 20px;
+}
+.cardR{
+    padding: 20px;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #f8f8f8,#E4FFAA);
+    border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    .cardL, .cardR{
+        max-width: 40%;
+    }
+}
+@media (min-width: 1220px) {
+    .cardL, .cardR{
+        max-width: 45%;
+    }
+}
