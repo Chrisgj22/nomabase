@@ -11,33 +11,57 @@ display: flex;
 max-width: 1600px;
 flex-wrap: wrap;
 gap: 40px;
-justify-content: space-evenly;
+justify-content: center;
 align-items: center;
 margin-left: auto;
 margin-right: auto;
 margin-top: 40px;
 }
 
+
+.cardTextSec1{
+    color: #121212;
+
+}
+
+.cardPSec1{
+    font-weight: 200;
+}
+
 .cardL{
-    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    background: linear-gradient(to right, #f8f8f8,#E4FFAA);
+    background: #ffffff;
     border-radius: 20px;
+    min-width: 40%;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 .cardR{
-    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    background: linear-gradient(to right, #e7e6e6,#e8f0d7);
+    background: #ffffff;
     border-radius: 20px;
+    min-width: 40%;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 768px) {
     .cardL, .cardR{
-        max-width: 40%;
+        min-width: 40%;
+        min-height: 200px;
     }
 }
 @media (min-width: 1220px) {
     .cardL, .cardR{
-        max-width: 45%;
+        max-width: 40%;
+        min-height: 200px;
     }
 }
