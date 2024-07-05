@@ -21,11 +21,13 @@ margin-top: 40px;
 
 .cardTextSec1{
     color: #121212;
+    font-size: 2rem;
+    font-weight: 400;
 
 }
 
 .cardPSec1{
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .cardL{
@@ -33,7 +35,7 @@ margin-top: 40px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: #ffffff;
+    background: linear-gradient(to right, #f2f8f5,#ddeadb);
     border-radius: 20px;
     min-width: 40%;
     min-height: 200px;
@@ -53,13 +55,13 @@ margin-top: 40px;
     align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .cardL, .cardR{
-        min-width: 40%;
+        width: 100%;
         min-height: 200px;
     }
 }
-@media (min-width: 1220px) {
+@media (min-width: 769px) {
     .cardL, .cardR{
         max-width: 40%;
         min-height: 200px;
