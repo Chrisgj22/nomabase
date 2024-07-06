@@ -41,8 +41,9 @@ margin-top: 40px;
     border-radius: 20px;
     min-width: 40%;
     height: 100%;
+    padding-left: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .cardR{
