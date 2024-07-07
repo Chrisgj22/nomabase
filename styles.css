@@ -195,7 +195,7 @@ gap: 10%;
     justify-items: center;
     align-items: center;
     max-width: 1600px;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -255,6 +255,69 @@ margin-top: 10px;
     .featuresLI{
         font-size: 1.5vh;
     }
+}
+
+
+/*crypto*/
+
+.cryptoSection{
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.cryptoCardsL{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40%;
+}
+.cryptoCards{
+    max-width: 45%;
+}
+.save20L{
+    font-size: 1.5rem;
+}
+
+.gridCrypto{
+    
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.rowCrypto{
+    display: flex;
+    gap: 20px;
+}
+
+.cryptoImg{
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #dedcdc solid 1px;
+    border-radius: 20px;
+}
+
+@media(max-width:768px){
+    .cryptoImg{
+        min-width: 80px;
+    }
+    cryptoImg img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+.cryptoImg img{
+    width: 40px;
+    height: 40px;
 }
 
 /*how it works*/
@@ -393,3 +456,4 @@ font-size: larger;
     font-size: larger;
     margin: 0px;
 }
+
