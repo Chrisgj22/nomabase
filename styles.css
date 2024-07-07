@@ -269,6 +269,7 @@ margin-top: 10px;
     flex-wrap: wrap;
     margin-top: 80px;
     margin-bottom: 80px;
+    padding: 20px;
 }
 .cryptoCardsL{
     display: flex;
