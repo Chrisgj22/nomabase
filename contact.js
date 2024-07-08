@@ -3,6 +3,7 @@ let mobileMenu = document.getElementById("menuToggle")
 let closeMenu = document.getElementById("closeMenu")
 let thanksSub = document.getElementById("thankSub")
 let contactBtn = document.getElementById("contactBtn")
+let thanks = document.getElementById("letsTalk")
 
 hamburger.addEventListener("click",function() {
     mobileMenu.style.display = "flex"
@@ -27,9 +28,9 @@ form.addEventListener('submit', e => {
     .then(response =>{
     if (response.ok) {
         console.log('Form submission successful!');
-        contactBtn.innerHTML="We'll be in touch soon, thank you"
+        thanks.innerHTML="We'll be in touch soon, thank you"
         setTimeout(function(){
-        contactBtn.innerHTML="Send"  
+        thanks.innerHTML="Let's talk"  
         },5000)
         form.reset()
       } else {
