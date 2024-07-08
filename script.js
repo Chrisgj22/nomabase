@@ -2,7 +2,7 @@ let hamburger = document.getElementById("toggleMenu")
 let mobileMenu = document.getElementById("menuToggle")
 let closeMenu = document.getElementById("closeMenu")
 let thanksSub = document.getElementById("thankSub")
-
+let contactBtn = document.getElementById("contactBtn")
 
 hamburger.addEventListener("click",function() {
     mobileMenu.style.display = "flex"
@@ -35,3 +35,5 @@ closeMenu.addEventListener("click",function() {
         .catch(error => console.error('Error!', error.message));
     });
     
+
+  

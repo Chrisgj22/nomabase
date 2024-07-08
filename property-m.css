@@ -90,3 +90,23 @@ margin-top: 40px;
     text-underline-offset: 8px;
     
 }
+.btnGetInTouch{
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnGet{
+    margin-top: 40px;
+    background-color:#121212 ;
+    color: white;
+    line-height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: larger;
+    padding: 5px 60px;
+}
+.btnGet:hover{
+    background-color: #00ff0d;
+    color: #121212;
+}

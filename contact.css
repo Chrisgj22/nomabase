@@ -5,7 +5,7 @@
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 80px;
     max-width: 1600px;
 }
 
@@ -17,6 +17,7 @@
 
 }
 .cardR{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     min-width: 45%;
@@ -25,6 +26,12 @@
 @media (max-width: 768px){
     .cardR{
         min-width: 100%;
+    }
+    .section1{
+        margin-top: 20px;
+    }
+    .cardR{
+        margin-top: 0px;
     }
 }
 .contactForm{

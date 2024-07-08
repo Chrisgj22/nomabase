@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"/>
     <link rel="stylesheet" href="contact.css"/>
-    <title>thank-you</title>
+    <title>Contact</title>
+    
 </head>
 <body>
 
@@ -42,18 +43,17 @@
         <h2 class="letsTalk">Let's talk</h2>
     </div>
     <div class="cardR">
-        <form class="contactForm">
-            <input type="text" fullName="fullName" placeholder="Full name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="number" name="phoneNumber"placeholder="Phone number (optional)">
-            <input type="text" name="details" placeholder="Details of enquiry (optional)">
-            <button class="btnSend" type="submit" name="submit">Send</button>
+        <form name="contactForm" class="contactForm">
+            <input name="fullName" type="text"  placeholder="Full name" required>
+            <input name="email" type="email" placeholder="Email" required>
+            <input name="number" type="number" placeholder="Phone number (optional)">
+            <input name="details" type="text"  placeholder="Details of enquiry (optional)">
+            <button type="submit" id="contactBtn" class="btnSend">Send</button>
         </form>
     </div>
 </div>
 
-
-    <script src="./script.js"></script>
+<script src="/contact.js"></script>
 </div>
 </body>
 </html>
