@@ -407,6 +407,11 @@ color: black;
 .subscribe{
   
 }
+.terms{
+    max-width: 1600px;
+    padding: 40px;
+}
+
 .formSub{
 display: flex;
 flex-direction: column;

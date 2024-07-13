@@ -176,3 +176,18 @@ input[type="range"]::-webkit-slider-thumb {
     font-size: 2rem;
     color: #00ff0d;
 }
+
+.tc{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+
+.tandc{
+  margin-top: 40px;
+  font-size: 0.7rem;
+  color: darkgray;
+  
+}
