@@ -4,7 +4,18 @@
         max-width: 280px;
     }
     }
+.heroProperty{
+    padding: 40px;
+}
 
+.section0{
+    margin-top: 120px;
+    max-width: 1600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
 
 .section1{
 display: flex;
@@ -111,4 +122,57 @@ margin-top: 40px;
 .btnGet:hover{
     background-color: #00ff0d;
     color: #121212;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1600px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+    height: 0.3rem;
+    margin-bottom: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #e5eae7;
+    cursor: pointer;
+    width: 25rem;
+    border-radius: 8px;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    margin-top: 0px; /* Centers thumb on the track */
+    background-color: #00ff15;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;}
+
+.result p {
+    margin: 5px 0;
+}
+
+
+#fivePercentRevenue{
+    font-size: 2rem;
+    color: #00ff0d;
 }

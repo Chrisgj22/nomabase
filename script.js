@@ -34,6 +34,21 @@ closeMenu.addEventListener("click",function() {
         })
         .catch(error => console.error('Error!', error.message));
     });
-    
 
+    //calculator//
+    
+    function calculateRevenue() {
+      const propertyRange = document.getElementById('propertyRange');
+      const propertyCount = document.getElementById('propertyCount');
+      const totalRevenue = document.getElementById('totalRevenue');
+      const fivePercentRevenue = document.getElementById('fivePercentRevenue');
+  
+      const properties = propertyRange.value;
+      const revenue = properties * 5000;
+      const fivePercent = revenue * 0.05;
+  
+      propertyCount.textContent = properties;
+      totalRevenue.textContent = revenue.toFixed(2);
+      fivePercentRevenue.textContent = "$"+fivePercent.toFixed(2);
+  }
   
