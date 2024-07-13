@@ -473,3 +473,41 @@ font-size: larger;
     margin: 0px;
 }
 
+/*footer*/
+
+.footerB{
+    background-color: #121212;
+}
+
+.footer{
+    flex-wrap: wrap;
+    display: flex;
+    color: #eaf1ea;
+    font-weight: 200;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerCol{
+    margin-top: 40px;
+}
+
+.footerCol li{
+    margin-bottom: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color:#eaf1ea ;
+    text-decoration: none;
+}
+
+
+.footerCopy{
+    display: flex;
+    color: #d4d5d5;
+    max-width: 1600px;
+    margin: auto;
+    padding: 40px;
+   
+}   

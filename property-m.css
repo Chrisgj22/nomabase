@@ -187,7 +187,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .tandc{
   margin-top: 0px;
-  font-size: 0.7rem;
+  font-size: smaller;
   color: darkgray;
   
 }
