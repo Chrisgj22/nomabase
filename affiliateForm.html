@@ -1,90 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
-    <link rel="stylesheet" href="contact.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Affiliate-form</title>
     <link rel="icon" type="image/x-icon" href="./assets/SVG/Asset 19.svg">
-    
+
 </head>
+
 <body>
 
-<!--nav-nav-nav -->
+    <!--nav-nav-nav -->
 
-<div id="menuToggle">
-    <ul">
-        <li><img id="closeMenu" src="./assets/img/Cross 1.svg"></img></li>
-        <li><a href="./property-management.html">Property management</a></li>
-        <li><a href="https://nomabase.dtravel.com/">Listing</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-    </ul>
-</div>
+    <div id="menuToggle">
+        <ul">
+            <li><img id="closeMenu" src="./assets/img/Cross 1.svg"></img></li>
+            <li><a href="./property-management.html">Property management</a></li>
+            <li><a href="https://nomabase.dtravel.com/">Listing</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            </ul>
+    </div>
 
-<div class="webWidth">
+    <div class="webWidth">
 
-    <div class="navbarDesktop">
+        <div class="navbarDesktop">
             <div>
                 <a href="./index.html"><img src="./assets/img/logo.svg" class="logo"></a>
-             </div>
+            </div>
             <div class="desktopMenuList">
-            <ul>
-                <li><a href="./property-management.html">Property management</a></li>
-                <li><a href="https://nomabase.dtravel.com/">Listing</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
+                <ul>
+                    <li><a href="./property-management.html">Property management</a></li>
+                    <li><a href="https://nomabase.dtravel.com/">Listing</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="mobileNav">
+                <img id="toggleMenu" src="./assets/img/Hamburger Menu.svg">
+            </div>
         </div>
-        <div class="mobileNav">
-            <img id="toggleMenu" src="./assets/img/Hamburger Menu.svg">
-        </div>
-    </div>
-<div class="section1">
-  
-    <div class="cardR">
-        <form name="contactForm" class="contactForm">
-            <input name="first name" type="text"  placeholder="First name" required>
-            <input name="last name" type="text"  placeholder="Last name" required>
-            <input name="email" type="email" placeholder="Email" required>
-            <input name="phonenumber" type="number" placeholder="Phone number" required>
-            <input name="address" type="text" placeholder="Address" required>
-            <input name="zip" type="number" placeholder="Zip" required>
-            <input name="state" type="text" placeholder="State" required>
-            <input name="country" type="text" placeholder="Country" required>
-            <input name="ach" type="text" placeholder="(ach) Automated Clearing House" required>
-            <input name="routing" type="text" placeholder="Routing number" required>
-            <label for="accept">by submitting I accept the <a href="./terms-and-conditions.html">terms and conditions</a> and confirm that all informations from me entered is correct.</label>
-            <input name="accept" type="checkbox" value="accept" checked required>
-            <button type="submit" id="contactBtn" class="btnSend">Send</button>
-        </form>
-    </div>
-</div>
+        <div class="section1">
 
-<script src="/contact.js"></script>
-</div>
-<footer>
-    <div class="footerB">
-        <div class="footer">
-            <div class="footerCol">
-                <ul>
-                    <li>Home</li>
-                    <li>property-management</li>
-                    <li>Contact</li>
-                    <li><A href="./affiliate.html">Affiliate</A></li>
-                </ul>
+            <div class="cardR">
+                <form name="affiliate" class="contactForm">
+                    <input name="firstName" type="text" placeholder="First name" required>
+                    <input name="lastName" type="text" placeholder="Last name" required>
+                    <input name="email" type="email" placeholder="Email" required>
+                    <input name="phonenumber" type="number" placeholder="Phone number" required>
+                    <input name="address" type="text" placeholder="Address" required>
+                    <input name="zip" type="number" placeholder="Zip" required>
+                    <input name="state" type="text" placeholder="State" required>
+                    <input name="country" type="text" placeholder="Country" required>
+                    <input name="ach" type="text" placeholder="(ach) Automated Clearing House" required>
+                    <input name="routing" type="text" placeholder="Routing number" required>
+                    <label for="accept">by submitting I accept the <a href="./terms-and-conditions.html">terms and
+                            conditions</a> and confirm that all informations from me entered is correct.</label>
+                    <input name="accept" type="checkbox" value="accept" checked required>
+                    <button type="submit" id="contactBtn" class="btnSend">Send</button>
+                </form>
             </div>
-            <div class="footerCol">
-                <ul>
-                    <li>Listings</li>
-                    <li>T&Cs</li>
-                    <li>Privacy</li>
-                </ul>
-            </div>
+        </div>
+
+        <script src="/affiliateForm.js"></script>
+    </div>
+    <footer>
+        <div class="footerB">
+            <div class="footer">
+                <div class="footerCol">
+                    <ul>
+                        <li>Home</li>
+                        <li>property-management</li>
+                        <li>Contact</li>
+                        <li><A href="./affiliate.html">Affiliate</A></li>
+                    </ul>
+                </div>
+                <div class="footerCol">
+                    <ul>
+                        <li>Listings</li>
+                        <li>T&Cs</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
             </div>
             <div class="footerCopy">
-            <p class="copyright">© 2024 Nomabase inc</p>
+                <p class="copyright">© 2024 Nomabase inc</p>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>
