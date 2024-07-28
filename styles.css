@@ -126,6 +126,20 @@ justify-content: center;
 gap: 10%;
 }
 
+.rightC1{
+    display: flex;
+}
+.arrowGo:hover{
+    transform: translate(5px, 0px) scale(2);
+}
+
+
+.blogTitleLink {
+    text-decoration: none;
+    color: #121212;
+
+}
+
 .cardXl:hover{
     background: linear-gradient(to right, #d4d5d5,#a3d5be68);
 }
@@ -411,6 +425,20 @@ color: black;
     max-width: 1600px;
     padding: 40px;
 }
+.blog{
+    max-width: 1400px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.blog h2,h3,h4,h5,h6{
+    font-size: x-large;
+}
+.blogTitle{
+    font-size: xx-large;
+}
 
 .formSub{
 display: flex;
@@ -512,3 +540,7 @@ font-size: larger;
     padding: 40px;
    
 }   
+
+.spacer80{
+    margin-top: 80px;
+}

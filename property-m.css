@@ -4,6 +4,20 @@
         max-width: 280px;
     }
     }
+
+@media (max-width:1024px){
+        .heroProperty1{
+            max-width: 280px;
+        }
+        }
+
+@media (min-width:1025px){
+    .heroProperty1{
+        max-width: 300px;
+    }
+    }
+
+
 .heroProperty{
     padding: 40px;
 }
